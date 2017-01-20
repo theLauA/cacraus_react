@@ -1,0 +1,114 @@
+body{
+  padding-top:70px;
+  background-color: #EFEFEF;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+@media (min-width:1500px){
+  .container {
+    width: 1400px;
+  }
+}
+}
+
+
+/* Change collapse break point*/
+@media (min-width:768px) and (max-width:1200px) {
+  .navbar-header {
+     float: none;
+     width:100%;
+ }
+ .navbar-left,.navbar-right {
+     float: none !important;
+ }
+ .navbar-toggle {
+     display: block;
+ }
+ .navbar-collapse {
+     border-top: 1px solid transparent;
+     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+ }
+ .navbar-fixed-top {
+     top: 0;
+     border-width: 0 0 1px;
+ }
+ .navbar-collapse.collapse {
+     display: none!important;
+ }
+ .navbar-nav {
+     float: none!important;
+     margin-top: 7.5px;
+ }
+ .navbar-nav>li {
+     float: none;
+ }
+ .navbar-nav>li>a {
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ .collapse.in{
+     display:block !important;
+ }
+ .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+   }
+
+}
+
+
+/*lOGO / NAVA HEAD BAR*/
+.navbar-brand img{
+  height:100%;
+  width:45px;
+}
+.navbar-brand{
+    padding:0px;
+}
+
+.navbar-header{
+  margin-left:5px;
+}
+
+/*Tool Bar Position*/
+#navbar-collapse-1>ul li{
+  padding-top: 1px;
+  font-size:1em;
+}
+
+/*navbar styling*/
+.navbar{
+  background-color: white;
+}
+#navbar-collapse-1 li a{
+  color:#A9A9A9;
+  font-weight: bold;
+  font-family: 'Nova Flat', cursive;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+        color:#FF3B3F !important;
+        cursor: default;
+        background-color: #CAEBF2;
+        border-bottom-color: transparent;
+}
