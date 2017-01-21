@@ -1,7 +1,9 @@
 import React from 'react';
+import {Link} from 'react-router';
 
 export default class Navbar extends React.Component {
   render(){
+    
     return(
       <div>
       <nav className="navbar navbar-default navbar-fixed-top">
@@ -34,18 +36,18 @@ export default class Navbar extends React.Component {
                 關於我們 :: About Us
               </a>
               <ul className="dropdown-menu">
-                <li><a href="#">使命 :: Mission</a></li>
+                <li><Link to={'/mission'}>使命 :: Mission</Link></li>
                 <li><a href="#">董事会 :: Board Member</a></li>
               </ul>
             </li>
             <li role="presentation">
-              <a href="#">行使你的權力 :: Exercise Your Right</a>
+              <Link to={'/right'}>行使你的權力 :: Exercise Your Right</Link>
             </li>
             <li role="presentation">
-              <a href="#">服務 :: Service</a>
+              <Link to={'/service'}>服務 :: Service</Link>
             </li>
             <li role="presentation">
-              <a href="#">社區故事 :: Community Story</a>
+              <Link to={'/story'}>社區故事 :: Community Story</Link>
             </li>
             <li role="presentation">
               <a type="button" className="dropdown-toggle"

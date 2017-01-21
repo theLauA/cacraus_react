@@ -1,5 +1,4 @@
 #jumbotron1{
-  background-image: url("../img/servicepic1.JPG");
   background-size: 100%;
   color:white;
   min-height: 400px;
@@ -26,7 +25,6 @@ p.lead {
 }
 
 #jumbotron2{
-  background-image: url("../img/servicepic2.JPG");
   background-size: 100%;
   color:white;
   min-height: 400px;
